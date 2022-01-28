@@ -25,6 +25,8 @@
   - [x] HTML5
   - [x] CSS3
   - [x] JavaScript
+  - [x] JQuery
+  - [x] API "Astronomy Picture of the Day"
   - [x] Git
 
 <h2 id="habilidades">Habilidades Adquiridas 📝</h2>
