@@ -9,7 +9,7 @@
 </div>
 
 <h2 id="sobre">Sobre 🔎</h2>
-  <p>Projeto onde precisei desenvolver uma aplicação capaz de realizar uma requisição para a API "Astronomy Picture of the Day" (APOD) com base em uma data específica e, a partir disso, exibir na página a imagem ou vídeo, com a descrição obtida. Utilize seus conhecimentos de HTML, CSS, JavaScript e jQuery, para conceber uma aplicação que esteja de acordo com os requisitos:</p>
+  <p>Projeto onde precisei desenvolver uma aplicação capaz de realizar uma requisição para a API "Astronomy Picture of the Day" (APOD) com base em uma data específica e, a partir disso, exibir na página a imagem ou vídeo, com a descrição obtida. Utilizei meus conhecimentos de HTML, CSS, JavaScript e jQuery, para conceber uma aplicação que esteja de acordo com os requisitos:</p>
 
   - Sua aplicação deve ser capaz de receber uma data como entrada do usuário a partir de um formulário. Com a data selecionada, ao clicar no botão de envio, uma requisição deve ser enviada à API da APOD para que seja obtida a foto ou vídeo referente ao dia escolhido. De posse dessa informação, a página deve ser manipulada para que os dados retornados sejam devidamente exibidos.
   - Sua aplicação deve, obrigatoriamente, ter um repositório no Github, estar disponível em uma Githubpage e utilizar jQuery.
