@@ -1,4 +1,4 @@
-# Projeto de Sprint: Mensagens Escondidas 🔐
+# Projeto de Sprint: APOD 🪐
 
 <div id="inicio" align=center>
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;
