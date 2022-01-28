@@ -36,15 +36,15 @@
   - Classes (HTML)
   - Seletores e Combinadores (CSS)
   - Pseudo-classes (CSS)
-  - Display Flex (CSS)
-  - Backdrop-Filter (CSS)
-  - Hue-rotate (CSS)
-  - Funções (JS)
-  - If, Else (JS)
-  - For (JS)
-  - DOM (JS)
-  - Árvore DOM (JS)
-  - Eventos DOM (JS)
+  - FlexBox (CSS)
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
 
 <hr>
 
