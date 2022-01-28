@@ -11,17 +11,14 @@
 <h2 id="sobre">Sobre 🔎</h2>
   <p>Projeto onde precisei desenvolver uma aplicação capaz de realizar uma requisição para a API "Astronomy Picture of the Day" (APOD) com base em uma data específica e, a partir disso, exibir na página a imagem ou vídeo, com a descrição obtida. Utilize seus conhecimentos de HTML, CSS, JavaScript e jQuery, para conceber uma aplicação que esteja de acordo com os requisitos:</p>
 
-  - Um campo de entrada textual, da mensagem que será codificada ou decodificada
-  - Um campo de seleção, com as opções "cifra de césar" e "base64" com o seguinte comportamento: <br>
-    Com "cifra de césar" ativo na seleção, um novo campo deve surgir no formulário para que seja possível fornecer o incremento utilizado na cifra
-  - Dois campos radiais (radio buttons) com os textos: "codificar" e "decodificar"
-  - Um botão que, com "codificar" selecionado exibe o texto "Codificar Mensagem!" e com "decodificar" selecionado exibe "Decodificar Mensagem!"
+  - Sua aplicação deve ser capaz de receber uma data como entrada do usuário a partir de um formulário. Com a data selecionada, ao clicar no botão de envio, uma requisição deve ser enviada à API da APOD para que seja obtida a foto ou vídeo referente ao dia escolhido. De posse dessa informação, a página deve ser manipulada para que os dados retornados sejam devidamente exibidos.
+  - Sua aplicação deve, obrigatoriamente, ter um repositório no Github, estar disponível em uma Githubpage e utilizar jQuery.
 
-<img src="./imagens/printProjMsgEscon.png" alt="imagem da tela dor formulário">
+<img src="./image/" alt="imagem da tela do página do projeto">
 
 <h2 id="andamento">Andamento do projeto 📈</h2>
 
-  ![Badge](https://img.shields.io/website?down_message=offline&label=status&style=for-the-badge&up_color=g&up_message=concluido&url=https%3A%2F%2Fytallobruno.github.io%2FProjetoMensagemEscondida%2F)
+  ![Badge](https://img.shields.io/website?down_message=Em%20andamento&label=status&style=for-the-badge&up_color=red&up_message=Concluído&url=https%3A%2F%2Fytallobruno.github.io%2FprojetoAPOD%2F)
 
 <h2 id="linguagens">Softwares & Ferramentas utilizadas nesse projeto 📚</h2>
 
