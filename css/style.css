@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata", monospace, "Courier New", Courier;
 }
 
 html,
@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  background: url("../image/SpacePlanets.gif");
+  background: url("../image/SpacePlanet.gif");
   background-size: cover;
 }
 
