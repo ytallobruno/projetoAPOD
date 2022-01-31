@@ -129,7 +129,7 @@ body {
   border-radius: 0.5em;
   border: 1px solid #e8e8e8;
   box-shadow: 2px 2px 12px rgb(197, 197, 197), -2px -2px 12px rgb(255, 255, 255);
-  transition: all 0.3s;
+  transition: 0.3s;
 }
 
 .sct-btn:hover {
