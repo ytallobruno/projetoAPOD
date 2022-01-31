@@ -73,6 +73,14 @@ body {
   padding: 1%;
 }
 
+.artc-ttl__nasa {
+  font-size: 1.5rem;
+}
+
+.artc-txt__nasa {
+  font-size: 1rem;
+}
+
 .artc-img__nasa,
 .artc-vd__nasa {
   display: none;
