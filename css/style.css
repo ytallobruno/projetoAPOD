@@ -38,12 +38,12 @@ body {
 }
 
 .hdr-box {
-  margin: 2% 0;
+  margin: 1% 0;
   justify-content: center;
 }
 
 .hdr-img-logo {
-  width: 7%;
+  width: 9%;
 }
 
 .main-content {
@@ -51,5 +51,30 @@ body {
   height: auto;
 }
 
+.artc {
+  width: 60vw;
+  height: 64vh;
+  box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.7);
+  margin: 3%;
+}
+
+.artc-img__nasa,
+.artc-vd__nasa {
+  display: none;
+  width: 25%;
+  height: 25%;
+}
+
+.ftr {
+  font-size: 0.9rem;
+  width: 100%;
+  height: 3%;
+  justify-content: center;
+}
 
 /* CORES, EFEITOS E AFINS */
+.artc,
+.ftr {
+  background-color: rgba(0,0,0,0.2);
+  backdrop-filter: blur(8px);
+}
