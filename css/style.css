@@ -109,7 +109,7 @@ body {
 	color: rgba(255, 137, 137, 0.9);
 }
 
-.link:link, .link:visited {
+.link:visited {
   color: rgb(255, 137, 137);
 }
 
