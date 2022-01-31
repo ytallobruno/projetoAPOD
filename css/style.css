@@ -1,3 +1,4 @@
+/* RESET E GERAL */
 * {
   margin: 0;
   padding: 0;
@@ -16,3 +17,39 @@ body {
   background-size: cover;
   /* backdrop-filter: blur(1px); */
 }
+
+/* ESPAÇAMENTOS */
+.container,
+.hdr-box,
+.main-content,
+.ftr {
+  display: flex;
+  align-items: center;
+}
+
+.container,
+.main-content {
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.hdr-box {
+  margin: 2% 0;
+  justify-content: center;
+}
+
+.hdr-img-logo {
+  width: 7%;
+}
+
+.main-content {
+  width: 100%;
+  height: auto;
+}
+
+
+/* CORES, EFEITOS E AFINS */
