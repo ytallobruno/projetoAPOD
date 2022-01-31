@@ -63,6 +63,7 @@ body {
 }
 
 .artc {
+  border-radius: 5px;
   display: none;
   width: 60%;
   height: auto;
@@ -88,7 +89,6 @@ body {
 
 .artc-img__nasa,
 .artc-vd__nasa {
-  display: block;
   width: 20%;
   height: 30%;
 }
@@ -127,9 +127,9 @@ body {
   font-size: 2rem;
   background: -webkit-linear-gradient(
     360deg,
-    rgba(0, 81, 255,0.8),
+    rgba(0, 81, 255, 0.8),
     rgba(255, 137, 137),
-    rgba(0, 81, 255,0.8)
+    rgba(0, 81, 255, 0.8)
   );
   background-size: 300%;
   -webkit-text-fill-color: transparent;
@@ -149,26 +149,28 @@ body {
 #date:focus {
   outline: none;
   border: 3px solid rgb(0, 140, 255);
-  /* border: 3px ridge rgb(255, 255, 255);*/
 }
 
 .sect-btn {
   cursor: pointer;
   border: none;
-  background: rgba(255, 255, 255,0.65);
+  background: rgba(255, 255, 255, 0.65);
   padding: 0.5em 0.7em;
   font-size: 0.9rem;
   border-radius: 0.3em;
-  box-shadow: inset 1px 1px 2px rgb(255, 255, 255),inset -1px -1px 3px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 1px 1px 2px rgb(255, 255, 255),
+    inset -1px -1px 3px rgba(255, 255, 255, 0.3);
   transition: 0.2s;
 }
 
 .sect-btn:hover {
-  box-shadow: inset 2px 3px 3px rgb(255, 255, 255),inset -2px -3px 4px rgb(255, 255, 255), 0 0 4px rgb(255, 255, 255);
+  box-shadow: inset 2px 3px 3px rgb(255, 255, 255),
+    inset -2px -3px 4px rgb(255, 255, 255), 0 0 4px rgb(255, 255, 255);
 }
 
 .sect-btn:active {
-  box-shadow: inset 0 1px 3px rgb(255, 255, 255),inset 1px 0 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
+  box-shadow: inset 0 1px 3px rgb(255, 255, 255),
+    inset 1px 0 3px rgb(255, 255, 255), 1px 1px 4px rgb(255, 255, 255);
 }
 
 @keyframes colorista {
@@ -182,32 +184,31 @@ body {
 
 /* uma leve pitada de responsividade */
 @media only screen and (max-width: 900px) {
-.hdr-img-logo {
-  width: 10%;
-}
+  .hdr-img-logo {
+    width: 10%;
+  }
 
-.hdr-box {
-  margin: 2% 0;
-}
+  .hdr-box {
+    margin: 2% 0;
+  }
 
-.hdr-txt {
-  font-size: 1.5rem;
-}
+  .hdr-txt {
+    font-size: 1.5rem;
+  }
 
-.sect {
-  margin: 3% 0;
-  order: 1;
-}
+  .sect {
+    margin: 3% 0;
+    order: 1;
+  }
 
-.artc {
-  width: 90%;
-}
+  .artc {
+    width: 90%;
+  }
 
-.artc-img__nasa,
-.artc-vd__nasa {
-  display: none;
-  width: 20%;
-  height: 30%;
-}
-
+  .artc-img__nasa,
+  .artc-vd__nasa {
+    display: none;
+    width: 20%;
+    height: 30%;
+  }
 }
