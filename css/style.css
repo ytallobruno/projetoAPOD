@@ -147,6 +147,7 @@ body {
   background: rgb(255, 255, 255);
   padding: 0.7em 1em;
   font-size: 0.8rem;
+  text-transform: uppercase;
   border-radius: 0.5em;
   border: 1px solid #e8e8e8;
   box-shadow: 2px 2px 12px rgb(197, 197, 197), -2px -2px 12px rgb(255, 255, 255);
