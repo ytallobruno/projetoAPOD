@@ -63,9 +63,9 @@ body {
 }
 
 .artc {
-  /* display: none; */
+  display: none;
   width: 60%;
-  height: 100%;
+  height: auto;
   box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.7);
   margin: 3%;
 }
@@ -88,7 +88,6 @@ body {
 
 .artc-img__nasa,
 .artc-vd__nasa {
-  display: none;
   width: 20%;
   height: 30%;
 }
