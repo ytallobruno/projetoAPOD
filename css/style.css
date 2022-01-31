@@ -42,7 +42,7 @@ body {
   justify-content: center;
 }
 
-.hdr-box{
+.hdr-box {
   margin: 2% 0;
 }
 
@@ -61,6 +61,7 @@ body {
 }
 
 .artc {
+  /* display: none; */
   width: 60%;
   height: 100%;
   box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.7);
@@ -89,13 +90,13 @@ body {
 /* CORES, EFEITOS E AFINS */
 .artc,
 .ftr {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
 }
 
 .hdr-txt {
   font-size: 2rem;
-  background: -webkit-linear-gradient(rgb(0,81,255), rgb(255,137,137));
+  background: -webkit-linear-gradient(rgb(0, 81, 255), rgb(255, 137, 137));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -114,19 +115,20 @@ body {
 .sct-btn {
   cursor: pointer;
   width: 7em;
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
   padding: 0.7em 1em;
   font-size: 0.8rem;
   border-radius: 0.5em;
   border: 1px solid #e8e8e8;
-  box-shadow: 2px 2px 12px rgb(197,197,197), -2px -2px 12px rgb(255,255,255);
+  box-shadow: 2px 2px 12px rgb(197, 197, 197), -2px -2px 12px rgb(255, 255, 255);
   transition: all 0.3s;
 }
 
 .sct-btn:hover {
-  box-shadow: 0 1px 10px rgba(255, 137, 137, 0.4), 0 1px 30px rgba(255, 137, 137, 0.6);
+  box-shadow: 0 1px 10px rgba(255, 137, 137, 0.4),
+    0 1px 30px rgba(255, 137, 137, 0.6);
 }
 
 .sct-btn:active {
-  box-shadow: 2px 2px 12px rgb(197,197,197), -2px -2px 12px rgb(255,255,255);
+  box-shadow: 2px 2px 12px rgb(197, 197, 197), -2px -2px 12px rgb(255, 255, 255);
 }
