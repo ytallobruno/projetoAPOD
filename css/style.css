@@ -15,10 +15,9 @@ body {
 body {
   background: url("../image/SpacePlanets.gif");
   background-size: cover;
-  /* backdrop-filter: blur(1px); */
 }
 
-/* ESPAÇAMENTOS */
+/* ESPAÇAMENTOS, CAIXAS E AFINS */
 .container,
 .hdr-box,
 .main-content,
@@ -35,27 +34,42 @@ body {
 .container {
   width: 100%;
   height: 100vh;
+  justify-content: space-around;
 }
 
-.hdr-box {
-  margin: 1% 0;
+.hdr-box,
+.sct {
   justify-content: center;
 }
 
+.hdr-box{
+  margin: 2% 0;
+}
+
 .hdr-img-logo {
-  width: 9%;
+  width: 6%;
 }
 
 .main-content {
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+
+.sct {
+  width: 50%;
+  text-align: center;
 }
 
 .artc {
-  width: 60vw;
-  height: 64vh;
+  width: 60%;
+  height: 100%;
   box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.7);
   margin: 3%;
+}
+
+.artc-ttl__nasa,
+.artc-txt__nasa {
+  padding: 1%;
 }
 
 .artc-img__nasa,
@@ -68,7 +82,7 @@ body {
 .ftr {
   font-size: 0.9rem;
   width: 100%;
-  height: 3%;
+  height: 20px;
   justify-content: center;
 }
 
@@ -77,4 +91,42 @@ body {
 .ftr {
   background-color: rgba(0,0,0,0.2);
   backdrop-filter: blur(8px);
+}
+
+.hdr-txt {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(rgb(0,81,255), rgb(255,137,137));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#date {
+  color: white;
+  background-color: rgb(0, 0, 0, 0.4);
+  box-shadow: inset 0 3px 5px rgb(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 140, 255, 0.2);
+}
+
+#date:focus {
+  outline: 1px ridge #ff898988;
+}
+
+.sct-btn {
+  cursor: pointer;
+  width: 7em;
+  background: rgb(255,255,255);
+  padding: 0.7em 1em;
+  font-size: 0.8rem;
+  border-radius: 0.5em;
+  border: 1px solid #e8e8e8;
+  box-shadow: 2px 2px 12px rgb(197,197,197), -2px -2px 12px rgb(255,255,255);
+  transition: all 0.3s;
+}
+
+.sct-btn:hover {
+  box-shadow: 0 1px 10px rgba(255, 137, 137, 0.4), 0 1px 30px rgba(255, 137, 137, 0.6);
+}
+
+.sct-btn:active {
+  box-shadow: 2px 2px 12px rgb(197,197,197), -2px -2px 12px rgb(255,255,255);
 }
