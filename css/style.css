@@ -21,13 +21,13 @@ body {
 .container,
 .hdr-box,
 .main-content,
-.ftr {
+.ftr, .artc {
   display: flex;
   align-items: center;
 }
 
 .container,
-.main-content {
+.main-content, .artc {
   flex-direction: column;
 }
 
@@ -74,18 +74,21 @@ body {
 }
 
 .artc-ttl__nasa {
+  align-self: flex-start;
   font-size: 1.5rem;
+  color: rgb(255, 255, 255);
 }
 
 .artc-txt__nasa {
   font-size: 1rem;
+  color: rgba(255, 255, 255,0.8);
 }
 
 .artc-img__nasa,
 .artc-vd__nasa {
   display: none;
-  width: 25%;
-  height: 25%;
+  width: 20%;
+  height: 30%;
 }
 
 .ftr {
