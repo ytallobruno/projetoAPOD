@@ -88,6 +88,7 @@ body {
 
 .artc-img__nasa,
 .artc-vd__nasa {
+  display: block;
   width: 20%;
   height: 30%;
 }
