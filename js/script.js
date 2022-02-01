@@ -28,7 +28,7 @@ function apod() {
         img.css("display", "none");
         vdo.css("display", "block");
       }
-      return pesquisa;
+      return search;
     },
 
     error: function () {
