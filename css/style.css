@@ -64,7 +64,7 @@ body {
 
 .artc {
   border-radius: 5px;
-  display: none;
+  visibility: hidden;
   width: 60%;
   height: 100%;
   box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.7);
@@ -92,6 +92,8 @@ body {
   margin-top: 2%;
   width: 25%;
   height: 35%;
+  border-radius: 10px;
+  box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.3), 3px 3px 5px rgba(0, 0, 0, 0.7);
 }
 
 .ftr {
@@ -194,19 +196,21 @@ body {
   }
 
   .hdr-txt {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .sect {
     margin: 3% 0;
     order: 1;
+    align-self: flex-end;
   }
 
   .artc {
     order: 0;
     width: 90%;
+    height: 90%;
   }
-
+  
   .artc-ttl__nasa {
     font-size: 1rem;
   }
@@ -214,12 +218,11 @@ body {
   .artc-txt__nasa {
     font-size: 0.75rem;
   }
-
+  
   .artc-img__nasa,
   .artc-vd__nasa {
-    border-radius: 10px;
     margin: auto 50%;
-    width: 50%;
-    height: 30%;
+    width: 60%;
+    height: auto;
   }
 }
