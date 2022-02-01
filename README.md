@@ -26,8 +26,9 @@
   - [x] CSS3
   - [x] JavaScript
   - [x] JQuery
-  - [x] API "Astronomy Picture of the Day"
+  - [x] API "APOD - Astronomy Picture of the Day"
   - [x] Git
+  - [x] Hoppscotch (para visualização do JSON)
 
 <h2 id="habilidades">Habilidades Adquiridas 📝</h2>
 
@@ -37,14 +38,13 @@
   - Seletores e Combinadores (CSS)
   - Pseudo-classes (CSS)
   - FlexBox (CSS)
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Responsividade (CSS)
+  - Function (JS)
+  - Condicionais IF, Else (JS)
+  - JQuery (JS)
+  - Ajax (JQuery)
+  - Uso de API's
+  - JSON
 
 <hr>
 
