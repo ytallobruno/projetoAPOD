@@ -66,7 +66,7 @@ body {
   border-radius: 5px;
   display: none;
   width: 60%;
-  height: auto;
+  height: 100%;
   box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.7);
   margin: 3%;
 }
@@ -89,8 +89,9 @@ body {
 
 .artc-img__nasa,
 .artc-vd__nasa {
-  width: 20%;
-  height: 30%;
+  margin-top: 2%;
+  width: 25%;
+  height: 35%;
 }
 
 .ftr {
