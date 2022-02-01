@@ -15,7 +15,7 @@ function apod() {
     url: `https://api.nasa.gov/planetary/apod?api_key=fPYCd2Epp6jDc2uLnSnZfG1RM9Ed4q4W2YpCbxaz&date=${data}`,
 
     success: function (search) {
-      artigo.css("display", "flex");
+      artigo.css("visibility", "visible");
       ttl.text(search.title);
       dscc.text(search.explanation);
 
