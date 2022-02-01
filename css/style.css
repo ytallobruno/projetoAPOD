@@ -203,13 +203,23 @@ body {
   }
 
   .artc {
+    order: 0;
     width: 90%;
+  }
+
+  .artc-ttl__nasa {
+    font-size: 1rem;
+  }
+  
+  .artc-txt__nasa {
+    font-size: 0.75rem;
   }
 
   .artc-img__nasa,
   .artc-vd__nasa {
-    display: none;
-    width: 20%;
+    border-radius: 10px;
+    margin: auto 50%;
+    width: 50%;
     height: 30%;
   }
 }
