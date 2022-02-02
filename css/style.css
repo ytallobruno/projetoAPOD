@@ -186,13 +186,15 @@ body {
 }
 
 /* uma leve pitada de responsividade */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
   .hdr-img-logo {
-    width: 10%;
+    width: 11%;
   }
 
-  .hdr-box {
-    margin: 2% 0;
+  .hdr-box,
+  .artc,
+  .sect {
+    margin-top: 5%;
   }
 
   .hdr-txt {
@@ -200,15 +202,14 @@ body {
   }
 
   .sect {
-    margin: 3% 0;
     order: 1;
     align-self: flex-end;
   }
 
   .artc {
     order: 0;
-    width: 90%;
-    height: 90%;
+    width: 92%;
+    height: 85%;
   }
   
   .artc-ttl__nasa {
