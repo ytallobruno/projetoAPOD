@@ -45,7 +45,7 @@ body {
 }
 
 .hdr-box {
-  margin: 2% 0;
+  margin: 0.5% 0;
 }
 
 .hdr-img-logo {
@@ -68,12 +68,12 @@ body {
   width: 60%;
   height: 100%;
   box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.5), 5px 5px 5px rgba(0, 0, 0, 0.7);
-  margin: 1%;
+  margin: 1% 0;
 }
 
 .artc-ttl__nasa,
 .artc-txt__nasa {
-  padding: 1%;
+  padding: 0.5% 1%;
 }
 
 .artc-ttl__nasa {
@@ -89,10 +89,10 @@ body {
 
 .artc-img__nasa,
 .artc-vd__nasa {
-  margin-top: 1%;
+  margin-top: 0.5%;
   width: 25%;
   height: 35%;
-  border-radius: 10px;
+  border-radius: 4px;
   box-shadow: -1px -1px 3px rgba(255, 255, 255, 0.2), 2px 2px 3px rgba(0, 0, 0, 0.7);
 }
 
@@ -123,7 +123,7 @@ body {
 .artc,
 .ftr {
   background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(6px);
 }
 
 .hdr-txt {
@@ -224,6 +224,6 @@ body {
   .artc-vd__nasa {
     margin: auto 50%;
     width: 60%;
-    height: auto;
+    height: 30%;
   }
 }
