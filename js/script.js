@@ -34,7 +34,7 @@ function apod() {
     error: function () {
       artigo.css("display", "flex");
       ttl.text(`Erro na Api`);
-      dscc.text(`Por favor, insira uma data de 16 de junho de 1995 até a data atual (exceto 17, 18 e 19 de junho de 1995.`);
+      dscc.text(`Por favor, insira uma data de 16 de junho de 1995 até a data atual (exceto 17, 18 e 19 de junho de 1995)`);
       img.attr("src","./image/findSerch.png");
       img.css("width", "150px")
       vdo.css("display", "none");
