@@ -123,7 +123,7 @@ body {
 .artc,
 .ftr {
   background-color: rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px) saturate(150%);
 }
 
 .hdr-txt {
